@@ -185,7 +185,7 @@ form .icon .icon-check::before {
 .icon-save:before,
 .icon-time-add:before,
 .icon-copy:before{
-    color: #937bff;
+    color: #00507f;
 }
 .icon-fav-off:before,
 .icon-fav:before,
@@ -212,7 +212,21 @@ table.list th {
     background-color: #bbbcbc;
 }
 table.list tbody tr:hover {
-    background-color: #ffba00;
+    background-color: #79e2d3;
+}
+table.list tbody tr:hover a {
+    color: #004b75;
+} 
+tr.context-menu-selection {
+    background-color: #004b75 !important;
+    color: #ffffff !important;
+}
+tr.context-menu-selection:hover, tr.context-menu-selection:hover a {
+   background-color: #79e2d3 !important;
+   color: #ffffff !important;
+}
+tr.context-menu-selection a {
+    color: #ffba00 !important;
 }
 
 
