@@ -161,7 +161,6 @@ tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; fo
     border: none;
 }
 
-
 a, a:link, a:visited {
     color: #00a5e1;
     text-decoration: none;
@@ -209,10 +208,17 @@ div.flash.notice {
     background-color: #f0f0f0;
 }
 table.list th {
-    background-color: #bbbcbc;
+    background-color: #75787b;
 }
+th a, th a:link, th a:visited{
+    color: #ffffff
+}
+th a:hover {
+    color: #ffba00;
+}
+
 table.list tbody tr:hover {
-    background-color: #79e2d3;
+    background-color: #bbbcbc;
 }
 table.list tbody tr:hover a {
     color: #004b75;
@@ -222,7 +228,7 @@ tr.context-menu-selection {
     color: #ffffff !important;
 }
 tr.context-menu-selection:hover, tr.context-menu-selection:hover a {
-   background-color: #79e2d3 !important;
+   background-color: #bbbcbc !important;
    color: #ffffff !important;
 }
 tr.context-menu-selection a {
