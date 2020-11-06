@@ -1,8 +1,8 @@
 {
-  "custom-field": "cet exemple de text pour une description",
-  "custom-object": {
-    "custom-line": "ligne particulière",
-    "custom-text": "texte customizable"
+  "modification de text": "cet exemple de text pour une description",
+  "objet particulier": {
+    "ligne 2": "ligne particulière",
+    "ligne 4": "texte customizable"
   },
   "custom-list": [
     {
