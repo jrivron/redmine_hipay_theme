@@ -1,1 +1,12 @@
-{}
+{
+  "custom-field": "cet exemple de text pour une description",
+  "custom-object": {
+    "custom-line": "ligne particulière",
+    "custom-text": "texte customizable"
+  },
+  "custom-list": [
+    {
+      "custom-list-item": "custom élément de liste"
+    }
+  ]
+}
